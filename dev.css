@@ -1,0 +1,221 @@
+/* header section */
+/* header, .header-content, .photo, .post, .followers, .Following{
+    border: 2px solid black;
+} */
+
+ header img{
+  width: 180px;
+  height: 200px;
+  border-radius: 16px;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.photo p {
+    text-align: center;
+    color: #A9A9A9;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+ }
+ .photo h2{
+    text-align: center;
+    color: #4E5150;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+ }
+.header-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.post, .followers, .Following{
+    padding: 0px 60px;
+    border-radius: 12px;
+    background: #E5E5E5;
+}
+.post h4{
+    color: #4E5150;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.followers h4{
+    color: #4E5150;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.Following h4{
+    color: #4E5150;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.post p{
+    color: black;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.followers p{
+    color: black;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.Following p{
+    color: black;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.followers{
+padding: 0px 50px;
+}
+.Following{
+    padding: 0px 40px;
+}
+
+/* main-sectioin */
+
+
+main{
+ /* border: 2px solid black;  */
+
+    margin: 50px 100px 0px 100px;
+}
+
+.first-div{
+    display: flex;
+    
+}
+.photo-1{
+width: 500px;
+height: 300px;
+margin-right: 20px;
+border-radius: 20px;
+}
+.photo-2{
+width: 800px;
+height: 300px;
+border-radius: 20px;
+}
+.sceond-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 2%;
+    margin-top: 30px;
+/* 
+    border: 2px solid black; */
+}
+.photo-3{
+width: 800px;
+height: 300px;
+border-radius: 20px;
+}
+
+
+
+ .fourth-div{
+/* border: 2px solid black; */
+
+    display: flex;
+    width: 100%;
+} 
+
+.photo-5 {
+    width: 394px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 3px;
+    border-radius: 20px;
+}
+.photo-6{
+    width: 394px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 7px;
+    border-radius: 20px;
+}
+.photo-4{
+    border-radius: 20px;
+    margin-left: 7px ;
+}
+
+/* footer */
+
+footer{
+
+}
+footer p{
+ color: black;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+margin-top: 100px;
+}
+#span-one{
+color: #0e30c5;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+
+@media screen and (max-width:576px) {
+   
+    main{
+        margin: 0px;
+    }
+ .first-div{
+    display: flex;  
+    margin-top: 50px;
+    width: 100%;
+}
+.photo-1{
+width: 30%;
+height: 180px;
+flex-shrink: 0;
+
+}
+.photo-2{
+width: 65%;
+height: 180px;
+flex-shrink: 0;
+object-fit: cover;
+}
+
+.photo-3{
+width: 120%;
+height: 160px;
+margin-right: 0px;
+}
+.photo-5, .photo-6{
+    height: 150px;
+    width: 70%;
+}
+.photo-4{
+    height: 340px;
+    width: 70%;
+    margin-left: 70px;
+} 
+
+}
+
